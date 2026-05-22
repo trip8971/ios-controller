@@ -1,0 +1,129 @@
+# ───────────────────────────── macOS ─────────────────────────────
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# ──────────────────────── Xcode / Swift / SPM ────────────────────
+# Build output
+.build/
+**/.build/
+.derived-data/
+DerivedData/
+build/
+*.xcodeproj/build/
+
+# User-specific Xcode files
+xcuserdata/
+**/xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+*.xcscmblueprint
+*.xccheckout
+
+# Workspace user state (keep shared schemes via xcshareddata)
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved.user
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/configuration/
+
+# Xcode test results / archives
+*.xcresult/
+*.xcarchive/
+
+# CocoaPods (if ever added)
+Pods/
+
+# Carthage (if ever added)
+Carthage/Build/
+
+# fastlane (if ever added)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# ───────────────────────────── Node ──────────────────────────────
+node_modules/
+**/node_modules/
+.pnp
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Build output
+dist/
+**/dist/
+build/
+**/build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.parcel-cache/
+.vite/
+
+# TypeScript
+*.tsbuildinfo
+**/*.tsbuildinfo
+
+# Test / coverage
+coverage/
+**/coverage/
+.nyc_output/
+junit.xml
+
+# ───────────────────────────── Logs ──────────────────────────────
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime / pid files
+pids/
+*.pid
+*.seed
+*.pid.lock
+/tmp/ios-controller-*.pid
+
+# ─────────────────────── Environment / Secrets ───────────────────
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.mobileprovision
+
+# ─────────────────────────── Editors / IDE ───────────────────────
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ───────────────────────── Agent / Tooling ───────────────────────
+.claude/
+.kiro/
+# Keep .kiro/ tracked for shared specs and steering
+
+# ──────────────────────────── Misc ───────────────────────────────
+*.tmp
+*.temp
+.cache/
