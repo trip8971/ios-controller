@@ -10,7 +10,7 @@
 
 > 打开携程app预订5月28日北京到上海最便宜的机票
 
-https://raw.githubusercontent.com/trip8971/ios-controller/refs/heads/main/doc-fixtures/demo.mp4
+https://github.com/user-attachments/assets/0375c6d6-a58b-423f-9e69-60e7bd523456
 
 ---
 
